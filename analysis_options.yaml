@@ -1,0 +1,23 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - camel_case_types
+    - camel_case_extensions
+    - library_names
+    - library_prefixes
+    - non_constant_identifier_names
+    - prefer_final_fields
+    - prefer_final_locals
+    - unnecessary_parenthesis
+    - unnecessary_string_escapes
+    - avoid_empty_else
+    - avoid_print
+    - prefer_void_to_null
+
+analyzer:
+  exclude: [build/**, .dart_tool/**]
+  errors:
+    missing_required_param: error
+    missing_return: error
+    todo: ignore
